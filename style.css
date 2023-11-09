@@ -1,0 +1,135 @@
+/*titulo*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+/*subtitulo*/
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
+/*titulo y subtitulo*/
+.titulo-inicio{
+    font-family: 'Amatic SC', sans-serif;
+    color:white;
+    font-size: 90px;
+    text-align: left;
+    margin-left: -100px;
+    margin-top: -110px;
+}
+
+.titulo-subtitulo{
+    font-family: 'Amatic SC', sans-serif;
+    color:white;
+    font-size: 70px;
+    text-align: left;
+    margin-left: -110px;
+    margin-top: -10px;
+    
+}
+/*portada-img*/
+.portada-inicio {
+    width: 100%;
+    height: 100vb;
+    background-image: url(assets/img/fondo\ 2.jpg);
+    background-size: cover;
+    position: relative;
+}
+/*inicio*/
+
+.inicio {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+/*index biografia*/
+.img-biografia{
+    width: 90%;
+    height: 60vb;
+    border-radius: 1rem;
+    -webkit-border-radius:10;
+    -moz-border-radius:10;
+    -ms-border-radius:10;
+    -o-border-radius:10;
+    margin-left: 45px;
+}
+.img-premios{
+    width: 100%;
+    height: 80vb;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.tipografria-1{
+    font-family: 'Amatic SC', sans-serif;
+    color:black;
+    font-size: 70px;
+    text-align: left;
+    margin-left: -5px;
+    margin-top: 37px;
+}
+/*index librosr*/
+#Libros h2 {
+    text-align: left;
+    margin-left: 0; 
+}
+.resplandor{
+    width: 250px; 
+    height: 300px;  
+}
+.it{
+    width: 250px; 
+    height: 300px; 
+}
+.misery{
+    width: 250px; 
+    height: 300px; 
+}
+.apocalipsis{
+    width: 250px; 
+    height: 300px;  
+}
+.la-torre-oscura{
+    width: 250px; 
+    height: 300px; 
+}
+.el-misterio-de-salem{
+    width: 250px; 
+    height: 300px;   
+}
+.cujo{
+    width: 250px; 
+    height: 300px; 
+}
+.col-md-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-md-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/*footer*/
+/*redes-img*/
+.redes-img img {
+    width: 30px; 
+    height: 30px; 
+    margin: 50x;
+}
+
+.redes-img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-top: 0;
+}
+
+
